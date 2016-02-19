@@ -4,7 +4,7 @@ $files = array(
 	'http://windows.php.net/downloads/releases/php-5.4.45-nts-Win32-VC9-x86.zip' => 'php-5.4.45-nts-Win32-VC9-x86',
 	'http://nginx.org/download/nginx-1.7.0.zip' => '',
 	'http://www.heidisql.com/downloads/releases/HeidiSQL_9.3_Portable.zip' => 'HeidiSQL_9.3_Portable',
-	'https://download.elasticsearch.org/elasticsearch/release/org/elasticsearch/distribution/zip/elasticsearch/2.2.0/elasticsearch-2.2.0.zip' => '',
+	'http://download.elasticsearch.org/elasticsearch/release/org/elasticsearch/distribution/zip/elasticsearch/2.2.0/elasticsearch-2.2.0.zip' => '',
 );
 
 foreach($files as $file=> $extract_to) {
