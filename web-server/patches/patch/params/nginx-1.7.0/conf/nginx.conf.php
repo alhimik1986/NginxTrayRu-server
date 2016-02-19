@@ -5,7 +5,7 @@ $root_path = str_replace('\\', '/', $root_path);
 $port = 80;
 
 return array(
-	'{root}'                 => 'root '.$root_path.';',
+	'{root}'                 => 'root "'.$root_path.'";',
 	'{set_host_path}'        => 'set $host_path "'.$root_path.'";',
 	'{listen_host_ip}'       => 'listen '.gethostbyname(gethostname()).':'.$port.';',
 	'{server_name_domain}'   => 'server_name '.gethostname().';',

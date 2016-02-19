@@ -4,7 +4,7 @@ if %PROCESSOR_ARCHITECTURE%==x86 (
   cd %~dp0\nssm\win64
 )
 
-set rel_path=..\..\..\web-server
+set rel_path=..\..\..\trays
 pushd %rel_path%
 set abs_path=%CD%
 popd
