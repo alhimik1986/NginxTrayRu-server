@@ -2,7 +2,7 @@
 @net stop NginxTrayRu
 
 @rem Перехожу в нужную папку патча и запускаю нужный патч
-@cd %~dp0\web-server\patches\patch
+@cd /d %~dp0\web-server\patches\patch
 call patch.bat
 
 @rem Перехожу в нужную папку трея и запускаю трей с нужными нам компонентами веб-сервера
